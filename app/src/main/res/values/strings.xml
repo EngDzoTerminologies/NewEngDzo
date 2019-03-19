@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_names">Computer</string>
+    <string name="app_name">Eng Dzo Terminology App</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">ENG DZO Terminology</string>
+    <string name="nav_header_subtitle">ddc@dzongkha.gov.bt</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="button">Button</string>
+    <string name="engDzo1">ཨིང་རྫོང་མིང་མཛོད།</string>
+    <string name="engDzo2">ENGLISH DZONGKHA</string>
+    <string name="terminology">TERMINOLOGY APP</string>
+    <string name="loading">loading...</string>
+    <string name="dzocommission">རྫོང་ཁ་གོང་འཕེལ་ལྷན་ཚོགས།</string>
+    <string name="EngDDC1">Dzongkha Development</string>
+    <string name="engDDC2">Commision</string>
+    <string name="Apptitle">Eng-Dzo Terminology</string>
+    <string name="comp_title">Eng-Dzo Basic Computer Terminology Book</string>
+    <string name="comp_description">English-Dzongkha Basic Computer Terminology book contains all the basic Computer terms used mostly by the computer and IT person.First edition of this book was launched and published by Dzongkha Development Commission on 2018.  </string>
+    <string name="title_activity_main">MainActivity</string>
+
+</resources>
