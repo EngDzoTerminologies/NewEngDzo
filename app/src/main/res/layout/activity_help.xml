@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:padding="18dp"
+    android:background="@drawable/pop_bg">
+
+    <TextView
+        android:id="@+id/help"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Help"/>
+
+    <TextView
+        android:id="@+id/engtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/help"
+        android:layout_marginEnd="60dp"
+        android:text="ENG" />
+
+    <Switch
+        android:id="@+id/translatefeedbackDzo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_toRightOf="@id/help"/>
+
+    <TextView
+        android:id="@+id/point1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Dzopoint1"
+        android:layout_below="@id/help"/>
+
+    <TextView
+        android:id="@+id/point2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text= "@string/Dzopoint2"
+        android:layout_below="@id/point1"/>
+
+    <TextView
+        android:id="@+id/point3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/point2"
+        android:text="@string/Dzopoint3"/>
+
+    <TextView
+        android:id="@+id/point4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/point3"
+        android:text="@string/Dzopoint4"/>
+
+
+
+</RelativeLayout>

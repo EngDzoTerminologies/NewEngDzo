@@ -3,7 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/white">
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
@@ -15,8 +16,33 @@
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             android:background="?attr/colorPrimary"
-            app:title="Political"
-            app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+            app:title="སྲིད་དོན། / Political"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/language"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@id/switchLanguageID"
+                android:textColor="@color/white"
+                android:fontFamily="@font/raleway"
+                android:textSize="16dp"
+                android:text="Dzongkha"
+                android:layout_marginRight="10dp"/>
+
+            <Switch
+                android:id="@+id/switchLanguageID"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/white"
+                android:textSize="14dp"
+                android:fontFamily="@font/raleway"
+                />
+        </RelativeLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -36,7 +62,8 @@
                 app:theme="@style/SearchTextViewTheme"
                 android:clickable="true"
                 android:focusable="true"
-                app:queryHint="འཚོལ / search..."
+                android:padding="5dp"
+                app:queryHint="search..."
                 app:searchIcon="@drawable/ic_search"
                 />
 
@@ -44,6 +71,32 @@
         </LinearLayout>
 
     </android.support.design.widget.AppBarLayout>
+    <TableLayout
+        android:id="@+id/descom"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:baselineAligned="true"
+        android:orientation="horizontal"
+        android:layout_marginTop="200dp">
+        <ImageView
+            android:id="@+id/frontImage"
+            android:layout_height="110dp"
+            android:layout_width="110dp"
+            android:src="@drawable/political"/>
+
+
+        <TextView
+            android:id="@+id/somedescriptionP"
+            android:textAlignment="center"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:text="@string/political_description"
+            android:textSize="16sp">
+
+
+        </TextView>
+    </TableLayout>
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/fabs"
         android:layout_width="wrap_content"

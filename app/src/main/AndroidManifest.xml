@@ -1,47 +1,80 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.riad.dictionary">
+    package="ddc.dict">
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/logo"
+        android:icon="@mipmap/mainlogo"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:screenOrientation="portrait"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ComputerActivity">
-
-        </activity>
-        <activity android:name=".PoliticalActivity">
-
-        </activity>
         <activity
-            android:name=".WordMeaningActivity"
-            android:parentActivityName=".ComputerActivity"
-           />
+            android:name="ddc.dict.ComputerActivity"
+            android:screenOrientation="portrait" />
         <activity
-            android:name=".WordMeaningActivityPolitical"
-            android:parentActivityName=".PoliticalActivity"
-            />
-        <activity android:name=".SettingsActivity" />
+            android:name="ddc.dict.PoliticalActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="ddc.dict.EconomicsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="ddc.dict.HealthActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="ddc.dict.FinancialActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="ddc.dict.WordMeaningActivity"
+            android:parentActivityName="ddc.dict.ComputerActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="ddc.dict.WordMeaningActivityPolitical"
+            android:parentActivityName="ddc.dict.PoliticalActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="ddc.dict.WordMeaningActivityEconomics"
+            android:parentActivityName="ddc.dict.EconomicsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="ddc.dict.WordMeaningActivityHealth"
+            android:parentActivityName="ddc.dict.HealthActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="ddc.dict.WordMeaningActivityFinancial"
+            android:parentActivityName="ddc.dict.FinancialActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="ddc.dict.SettingsActivity"
+            android:screenOrientation="portrait" />
 
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
 
         <activity
-            android:name=".MainActivity"
-            android:label="ENG-DZO Terminology"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:name="ddc.dict.MainActivity"
+            android:label="ENG-རྫོང མིང་མཛོད།(Terminology)"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="ddc.dict.SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme2">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
-
         </activity>
-
+        <activity
+            android:name="ddc.dict.PopupActivity"
+            android:theme="@style/AppTheme.PopMe" />
+        <activity android:name="ddc.dict.BookmarkActivity" />
+        <activity android:name="ddc.dict.FeedbackActivity" />
+        <activity android:name="ddc.dict.HelpActivity"
+            android:theme="@style/AppTheme.PopMe" />
     </application>
 
 </manifest>

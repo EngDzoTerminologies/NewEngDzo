@@ -4,8 +4,10 @@
     <color name="colorPrimaryDark">#025461</color>
     <color name="colorAccent">#29AB87</color>
     <color name="colorAccent2">#006E7F</color>
+    <color name="covorcolors">#009abc</color>
 
     <color name="white">#fdffff</color>
     <color name="textHint">#c6c6c6</color>
+
 
 </resources>

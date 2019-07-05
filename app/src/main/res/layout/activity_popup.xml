@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="wrap_content"
+    android:padding="14dp"
+    android:background="@drawable/pop_bg">
+
+    <TextView
+        android:id="@+id/aboutappID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="About app"/>
+
+    <TextView
+        android:id="@+id/engtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/aboutappID"
+        android:layout_marginEnd="60dp"
+        android:text="ENG" />
+
+    <Switch
+        android:id="@+id/translateaboutappinDzo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_toRightOf="@id/aboutappID" />
+
+
+    <TextView
+        android:id="@+id/versionID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Version 1.0"
+        android:layout_below="@id/aboutappID"/>
+
+    <TextView
+        android:id="@+id/messageID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/aboutapp"
+        android:layout_below="@id/versionID"/>
+
+    <TextView
+        android:id="@+id/developer1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/messageID"
+        android:text="@string/developer1"/>
+
+    <TextView
+        android:id="@+id/developer2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/developer1"
+        android:text="@string/developer2"/>
+
+    <TextView
+        android:id="@+id/developer3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/developer2"
+        android:text="@string/developer3"/>
+
+    <TextView
+        android:id="@+id/developer4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/developer3"
+        android:text="@string/developer4"/>
+
+    <TextView
+        android:id="@+id/developer5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/developer4"
+        android:text="@string/developer5"/>
+
+
+</RelativeLayout>

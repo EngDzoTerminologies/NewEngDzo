@@ -15,19 +15,17 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:layout_width="105dp"
+        android:layout_height="105dp"
         android:contentDescription="@string/nav_header_desc"
-        android:paddingTop="@dimen/nav_header_vertical_spacing"
-        app:srcCompat="@drawable/logo"
+        android:paddingTop="10dp"
+        app:srcCompat="@drawable/splashlogo1"
         android:layout_gravity="center"
-        android:elevation="20dp"
         />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingTop="3dp"
         android:text="@string/nav_header_title"
         android:textColor="@color/white"
         android:layout_gravity="center"

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:title="དཔའ་འབྱོར། / Economics"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/language"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@id/switchLanguageID"
+                android:textColor="@color/white"
+                android:fontFamily="@font/raleway"
+                android:textSize="16dp"
+                android:text="Dzongkha"
+                android:layout_marginRight="10dp"/>
+
+            <Switch
+                android:id="@+id/switchLanguageID"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/white"
+                android:textSize="14dp"
+                android:fontFamily="@font/raleway_thin" />
+        </RelativeLayout>
+
+
+    <LinearLayout
+        android:id="@+id/searchlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/colorPrimary"
+        >
+        <android.support.v7.widget.SearchView
+            android:id="@+id/search_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="15dp"
+            android:background="@color/white"
+            app:theme="@style/SearchTextViewTheme"
+            android:clickable="true"
+            android:focusable="true"
+            android:padding="5dp"
+            app:queryHint="search..."
+            app:searchIcon="@drawable/ic_search">
+
+        </android.support.v7.widget.SearchView>
+
+
+    </LinearLayout>
+
+    </android.support.design.widget.AppBarLayout>
+    <TableLayout
+        android:id="@+id/descom"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:baselineAligned="true"
+        android:orientation="horizontal"
+        android:layout_marginTop="200dp">
+        <ImageView
+            android:id="@+id/frontImage"
+            android:layout_height="140dp"
+            android:layout_width="140dp"
+            android:src="@drawable/economics"/>
+
+
+        <TextView
+            android:id="@+id/somedescriptionE"
+            android:textAlignment="center"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:text="@string/economics_description"
+            android:textSize="16sp">
+
+
+        </TextView>
+    </TableLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:background="@color/colorPrimary"
+        android:layout_margin="@dimen/fab_margin"
+        app:srcCompat="@drawable/home" />
+
+
+</android.support.design.widget.CoordinatorLayout>

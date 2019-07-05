@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SettingsActivity">
+    tools:context="ddc.dict.SettingsActivity">
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
@@ -80,7 +80,7 @@
             android:layout_marginRight="10dp"
             android:layout_marginTop="5dp"
             android:background="#c8c7cc" />
-
+<!--
         <TextView
             android:id="@+id/clear_history"
             android:layout_width="match_parent"
@@ -88,7 +88,7 @@
             android:padding="10dp"
             android:text="Clear History"
             android:textSize="16sp"
-            android:textStyle="bold" />
+            android:textStyle="bold" />-->
         <View
             android:layout_width="match_parent"
             android:layout_height="1dp"

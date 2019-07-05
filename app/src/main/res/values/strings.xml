@@ -8,16 +8,70 @@
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
     <string name="button">Button</string>
-    <string name="engDzo1">ཨིང་རྫོང་མིང་མཛོད།</string>
-    <string name="engDzo2">ENGLISH DZONGKHA</string>
-    <string name="terminology">TERMINOLOGY APP</string>
-    <string name="loading">loading...</string>
-    <string name="dzocommission">རྫོང་ཁ་གོང་འཕེལ་ལྷན་ཚོགས།</string>
-    <string name="EngDDC1">Dzongkha Development</string>
-    <string name="engDDC2">Commision</string>
-    <string name="Apptitle">Eng-Dzo Terminology</string>
+    <string name="Apptitle">Eng-རྫོང Terminology</string>
     <string name="comp_title">Eng-Dzo Basic Computer Terminology Book</string>
-    <string name="comp_description">English-Dzongkha Basic Computer Terminology book contains all the basic Computer terms used mostly by the computer and IT person.First edition of this book was launched and published by Dzongkha Development Commission on 2018.  </string>
+
+    <string name="comp_description">In the computer terminology section, there are around 760 basic computer terms in English
+    with its equivalence and definition in Dzongkha from Basic English Dzongkha Computer Terminology book published by Dzongkha
+    Development Commission in 2018.</string>
+    <string name="comp_descriptionDzo">གློག་རིག་གི་མིང་མཛོད་འདི་ནང་ རྫོང་ཁ་གོང་འཕེལ་ལྷན་ཚོགས་ཀྱིས་ སྤྱི་ལོ་༢༠༡༨ ལུ་དཔེ་སྐྲུན་འབད་ཡོད་པའི་གཞི་རྟེན་གྱོག་རིག་མིང་མཛོད་ནང་གི་ ཨིང་སྐད་ནང་ཡོད་མིའི་གློག་རིག་དང་འབྲེལ་བའི་གཞི་རྟེན་གྱི་མིང་ཚིག་བསྡོམས་
+     ༧༦༠ དེ་ཅིག་གི་རྫོང་ཁའི་དོ་མཉམ་གྱི་ཚིག་གི་གོ་དོན་ཚུ་རྫོང་ཁ་ནང་བྲིས་ཏེ་ཡོད་མི་ཚུ་བཙུགས་ཡོདཔ་ཨིན།</string>
+
+    <string name="economics_description">In the economic terminology section, there are English words and Dzongkha equivalent words from
+    English-Dzongkha bilingual Economics Lexicon Book published by Dzongkha Development Commission in 2017.</string>
+    <string name="economics_descriptionDzo">དཔལ་འབྱོར་མིང་མཛད་འདི་ནང་ རྫོང་ཁ་གོང་འཕེལ་ལྷན་ཚོགས་ཀྱིས་ ལོ་ངོ་གཉིས་ཀྱི་རིང་ལུ་ དཔལ་འབྱོར་རིག་པ་དང་འབྲེལ་བའི་དཔེདེབ་དང་ཚིག་མཛོད་མང་རབས་ཙིག་ ཞིབ་འཚོལ་འབད་དེ་ སྤྱི་ལོ་༢༠༡༧ ལུ་དཔེ་སྐྲུན་འབད་ཡོད་པའི་ ཨིང་རྫོང་ཤན་སྦྱར་གྱི་དཔལ་འབྱོར་མིང་མཛད་ནང་གི་ མིང་ཚིག་ཚུ་བཙུགས་ཏེ་ཡོདཔ་ཨིན།</string>
+
+    <string name="financial_description">In the financial terminology section, there are financial terms in English and its equivalent
+    terms in Dzongkha from English Dzongkha Financial Terminology Book published by Dzongkha Development Commission in 2010.</string>
+    <string name="financial_descriptionDzo">དངུལ་རྩིས་མིང་མཛོད་འདི་ནང་ རྫོང་ཁ་གོང་འཕེལ་ལྷན་ཚོགས་ཀྱིས་ སྤྱི་ལོ་ ༢༠༡༠ ལུ་དཔེ་སྐྲུན་འབད་ཡོད་པའི་ ཨིང་རྫོང་དངུལ་རྩིས་ཐ་སྙད་རྒྱུ་སྐར་ཕྲེང་བ་ནང་གི་ དངུལ་རྩིས་དང་འབྲེལ་བའི་ཨིང་སྐད་ཀྱི་ཚིག་དང་རྫོང་ཁའི་དོ་མཉམ་ཚུ་བཙུགས་ཏེ་ཡོདཔ་ཨིན།</string>
+
+    <string name="health_description">In the health terminology section, there are health related terms in English, Dzongkha equivalent
+    terms and definition in Dzongkha from English Dzongkha Bilingual Health Terminology Book published by Dzongkha Development
+    Commission in 2015.</string>
+    <string name="health_descriptionDzo">གསོ་བའི་མིང་མཛོད་འདི་ནང་ རྫོང་ཁ་གོང་འཕེལ་ལྷན་ཚོགས་ཀྱིས་ སྤྱི་ལོ་ ༢༠༡༥ ལུ་དཔེ་སྐྲུན་འབད་ཡོད་པའི་ཨིང་རྫོང་ཤན་སྦྱར་གསོ་བའི་མིང་མཛོད་ནང་ལས་ གསོ་བ་དང་འབྲེལ་བའི་ཨིང་སྐད་ཀྱི་མིང་ཚིག་དང་རྫོང་ཁའི་དོ་མཉམ་ དེ་ལས་རྫོང་ཁའི་གོ་དོན་ཚུ་བཙུགས་ཏེ་ཡོདཔ་ཨིན།</string>
+
+    <string name="political_description">In the political terminology section, there are English words and Dzongkha equivalent
+    political terms  from English Dzongkha Political Terminology Book published by Dzongkha Development
+    Commission in 2018.</string>
+    <string name="political_descriptionDzo">སྲིད་དོན་མིང་མཛོན་འདི་ནང་ རྫོང་ཁ་གོང་འཕེལ་ལྷན་ཚོགས་ཀྱིས་ སྤྱི་ལོ་ ༢༠༡༨ ལུ་དཔེ་སྐྲ྄ན་འབད་ཡོད་པའི་ ཨིང་རྫོང་ཤན་སྦྱར་སྲིད་དོན་མིང་མཛོད་ནང་ལས་ ཨིང་སྐད་ནང་གི་སྲིད་དོན་མིང་ཚིག་དང་རྫོང་ཁའི་དོ་མཉམ་ཚུ་བཙུགས་ཏེ་ཡོདཔ་ཨིན།</string>
+
     <string name="title_activity_main">MainActivity</string>
+    <string name="okdzo">བཏུབ་པས།</string>
+    <string name="canceldzo">ཆ་མེད་གཏང།</string>
+    <string name="exitpoint">exit</string>
+    <string name="aboutapp">The Eng-Dzo Terminology App will help you search and learn new Dzongkha terms related to computer,heatlth,
+        politics,finance and economics. The app is developed to promote the subject specific Dzongkha terms found in different terminology
+        books published by Dzongkha Development Commission. Search,learn and grow. Developers
+        </string>
+    <string name="Dzoaboutapp">ཨིང་རྫོང་མིང་མཛོད་རིམ་ལུགས་འདི་གིས་ གློག་རིག་དང་ སྲིད་ལྡན་ གསོ་བ་དངུལ་རྩིས་ དེ་ལས་དཔལ་འབྱོར་དང་འབྲེལ་
+    བའི་རྫོང་ཁའི་མིང་ཚིག་ཚུ་ འཚོལ་ཏེ་ལྷབ་ནི་ལུ་ཕན་ཐོགས། རིག་ལུགས་འདི་ཡང་ རྫོང་ཁ་གོང་འཕེལ་ལྷན་ཚོགས་ཀྱི་དཔེ་སྐྲུན་འབད་དེ་ཡོད་པའི་མིང་
+    མཛོད་མ་འདྲཝ་ཚུ་ནང་ཡོད་པའི་ དན་ཚན་དང་འབྲེལ་བའི་རྫོང་ཁའི་ཚིག་ཚུ་ དར་ཁྱབ་གཏང་ནི་ལུ་དམིགས་ཏེ་བཟོ་ཡོདཔ་ཨིན། འཚོལ་ཏེ་ལྷབ་ཞིནམ་ལས་
+        མཁས་པ་ལུ་འགྱུར།</string>
+
+
+    <string name="developer1">1. Ms. Anita Maya Rai</string>
+    <string name="developer2">2. Mr. Jamyang Thinley</string>
+    <string name="developer3">3. Ms. Sapna Thapa</string>
+    <string name="developer4">4. Mr. Namgay Wangchuk</string>
+    <string name="developer5">5. Ms. Dechen Pelki</string>
+
+
+    <string name="Dzodeveloper1">༡ ཨ་ནི་ཏ་མ་ཡ་རའི།(anita.infotechofficial@gmail.com)</string>
+    <string name="Dzodeveloper2">༢ འཇམ་དབྱངས་འཕྲིན་ལས།(jamyang.thinley97@gmail.com) </string>
+    <string name="Dzodeveloper3">༣ སཱཔ་ན་ཐ་པ།(sapnathapa405@gmail.com) </string>
+    <string name="Dzodeveloper4">༤ རྣམ་རྒྱལ་དབང་ཕྱུག (nam8wangchuk@gmail.com) </string>
+    <string name="Dzodeveloper5">༥ བདེ་ཆེན་དཔལ་སྐྱིད (dechenpelki.cst@rub.edu.bt) </string>
+    <string name="helpdescription">The description that might help users to use an app properly</string>
+
+    <string name="point1">1. Select the category of your choice</string>
+    <string name="point2">2. Search the term you are looking for by entering in the search bar</string>
+    <string name="point3">3. Select the intended term from the dropdown list</string>
+    <string name="point4">4. To search by Dzongkha definition or Dzongkha equivalence, enable the "Search by Dzongkha" toggle button.</string>
+
+    <string name="Dzopoint1">༡ ཁྱོད་ར་གི་མནོ་མི་ དོན་ཚན་འདི་གདམ་ཁ་རྐྱབ།</string>
+    <string name="Dzopoint2">༢ འཚོལ་སྒྲོམ་ནང་མཛུབ་གནོན་རྐྱབ་ཏེ་ ཁྱོད་ར་གིས་མནོ་མི་ཚིག་འདི་འཚོལ།</string>
+    <string name="Dzopoint3">༣ མར་ཐོན་ཐོ་ན་ཡོད་པའི་ཚིག་ཚུ་ལས་ ཁྱོད་མགོ་པའི་ཚིན་འདི་གདམ་ཁ་རྐྱབ།</string>
+    <string name="Dzopoint4">༤ རྫོང་ཁའི་མིང་ཚིག་ ཡང་ན་རྫོང་ཁའི་དོ་མཉམ་ཐོག་འཚོལ་ནིའི་དོན་ལུ་ "རྫོང་ཁའི་ཐོག་འཚོལ" ཟེར་བའི་སོར་རྟ་གུ་ཨེབ་གནང།</string>
+
 
 </resources>
